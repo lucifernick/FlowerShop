@@ -294,18 +294,16 @@
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton11">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="selected" type="boolean" value="true"/>
         <Property name="text" type="java.lang.String" value="Carnation"/>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton11ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton12">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Lillies"/>
       </Properties>
       <Events>
@@ -314,81 +312,51 @@
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton13">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Football Mums"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton14">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Alstroemeries"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton15">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Button Chrysanthemums"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton16">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Snapdragons"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton17">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Daisies"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton18">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Mastumoto Asters"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton19">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Gerberas"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton20">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Roses"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton21">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Caspia"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton22">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="FlowerType"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Wax Flower"/>
       </Properties>
     </Component>
@@ -402,57 +370,36 @@
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton23">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="Accessories"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Acrylic Diamonds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton24">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="Accessories"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Decorative Gems"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton25">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="Accessories"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Sea Shells"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton26">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="Accessories"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Decorative Butterflies"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton27">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="Accessories"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Decorative Birds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton28">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="Accessories"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Rhinestone Quintet"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="jRadioButton29">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="Accessories"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Curly Tings"/>
       </Properties>
     </Component>

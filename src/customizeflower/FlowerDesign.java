@@ -122,11 +122,15 @@ public class FlowerDesign extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel5.setText("FLOWER TYPE");
 
-        FlowerType.add(jRadioButton11);
         jRadioButton11.setSelected(true);
         jRadioButton11.setText("Carnation");
+        jRadioButton11.setName(""); // NOI18N
+        jRadioButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton11ActionPerformed(evt);
+            }
+        });
 
-        FlowerType.add(jRadioButton12);
         jRadioButton12.setText("Lillies");
         jRadioButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -134,58 +138,41 @@ public class FlowerDesign extends javax.swing.JFrame {
             }
         });
 
-        FlowerType.add(jRadioButton13);
         jRadioButton13.setText("Football Mums");
 
-        FlowerType.add(jRadioButton14);
         jRadioButton14.setText("Alstroemeries");
 
-        FlowerType.add(jRadioButton15);
         jRadioButton15.setText("Button Chrysanthemums");
 
-        FlowerType.add(jRadioButton16);
         jRadioButton16.setText("Snapdragons");
 
-        FlowerType.add(jRadioButton17);
         jRadioButton17.setText("Daisies");
 
-        FlowerType.add(jRadioButton18);
         jRadioButton18.setText("Mastumoto Asters");
 
-        FlowerType.add(jRadioButton19);
         jRadioButton19.setText("Gerberas");
 
-        FlowerType.add(jRadioButton20);
         jRadioButton20.setText("Roses");
 
-        FlowerType.add(jRadioButton21);
         jRadioButton21.setText("Caspia");
 
-        FlowerType.add(jRadioButton22);
         jRadioButton22.setText("Wax Flower");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel6.setText("ACCESSORIES");
 
-        Accessories.add(jRadioButton23);
         jRadioButton23.setText("Acrylic Diamonds");
 
-        Accessories.add(jRadioButton24);
         jRadioButton24.setText("Decorative Gems");
 
-        Accessories.add(jRadioButton25);
         jRadioButton25.setText("Sea Shells");
 
-        Accessories.add(jRadioButton26);
         jRadioButton26.setText("Decorative Butterflies");
 
-        Accessories.add(jRadioButton27);
         jRadioButton27.setText("Decorative Birds");
 
-        Accessories.add(jRadioButton28);
         jRadioButton28.setText("Rhinestone Quintet");
 
-        Accessories.add(jRadioButton29);
         jRadioButton29.setText("Curly Tings");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -320,6 +307,10 @@ public class FlowerDesign extends javax.swing.JFrame {
     private void jRadioButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton12ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton12ActionPerformed
+
+    private void jRadioButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton11ActionPerformed
 
     /**
      * @param args the command line arguments
